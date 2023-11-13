@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#3F51B5"
+    android:layout_marginBottom="10dp"
+    android:padding="10dp"
+    android:orientation="vertical">
+
+    <TextView
+        android:textColor="@color/white"
+        android:id="@+id/tv_name_item_cartItem"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:textColor="@color/white"
+        android:id="@+id/tv_price_item_cartItem"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:textColor="@color/white"
+        android:id="@+id/tv_quantity_item_cartItem"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:textColor="@color/white"
+        android:id="@+id/tv_sumPrice_item_cartItem"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:text="xoa san pham"
+        android:textColor="@color/white"
+        android:id="@+id/tv_xoaSanPham"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+</LinearLayout>
